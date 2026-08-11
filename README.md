@@ -1,10 +1,17 @@
 iac/
+
 ├── compute_alb.tf       ← Instala ec2, load balancer y ASG
+
 ├── variables.tf         ← inputs configurables (project_name, region, etc.)
+
 ├── outputs.tf           ← Nombre del load balancer y S3
+
 ├── efs.tf               ← Instala efs
+
 ├── s3_iam.tf            ← Creacion S3 y roles de permisos
+
 ├── security_groups.tf   ← Creacion de los Security Groups
+
 └── vpc.tf               ← Creacion de la VPC
 
 Setup
