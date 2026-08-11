@@ -7,7 +7,6 @@ iac/
 ├── security_groups.tf   ← Creacion de los Security Groups
 └── vpc.tf               ← Creacion de la VPC
 
-
 Setup
 
 1.- Clonar el repo en una distribucion de Linux basada en Debian o Redhat
